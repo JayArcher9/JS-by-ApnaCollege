@@ -1,0 +1,9 @@
+let str = prompt("Enter the string");
+
+if( (str[0] == 'a' || str[0] == 'A') && str.length >= 5 ){
+    console.log("It is a golden string");
+}
+
+else{
+    alert("Not a golden string");
+}
