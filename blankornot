@@ -1,0 +1,9 @@
+let arr = ['1','2']
+
+if(arr.length > 0) 
+{
+    console.log('The string is not empty')
+}
+else{
+    console.log('String is empty')
+}
