@@ -1,0 +1,11 @@
+let guess = prompt("What's my favourite movie");
+
+a = "Znmd"
+
+while ((guess != a) && (guess != "quit")){
+    guess = prompt("Wrong answer, try again");
+} 
+
+if (guess == a){
+    console.log("Right")
+}
