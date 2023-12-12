@@ -1,0 +1,11 @@
+function sum(x){
+    let num = 0;
+    for(let i=0;i<=x;i++){
+        num = num + i;
+    }
+    return num;
+}
+
+a = parseInt(prompt("Enter the number"));
+
+console.log(sum(a));
