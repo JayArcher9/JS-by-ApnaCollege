@@ -1,0 +1,11 @@
+function avg3(x,y,z){
+    let num = (x+y+z)/3
+    console.log(num);
+}
+
+a = parseInt(prompt("Enter first number"));
+b = parseInt(prompt("Enter second number"));
+c = parseInt(prompt("Enter third number"));
+
+
+avg3(a,b,c);
